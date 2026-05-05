@@ -1,0 +1,26 @@
+# 系统垃圾文件
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
+
+# 依赖/库
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+# 工具运行时
+.playwright-mcp/
+
+# 浏览器数据
+.browser-profile/
+
+# 嵌套的独立仓库（plan-video 自带 Git 管理）
+plan-video/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
